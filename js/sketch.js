@@ -13,6 +13,9 @@
             cell.style.width = `${cellSize}px`
             cell.style.height = `${cellSize}px`
             cell.classList.add("gridElement")
+            cell.addEventListener("mouseover", () =>{
+                cell.style.backgroundColor = "black"
+            })
             gridPlaceHolder.appendChild(cell);
         }
     }

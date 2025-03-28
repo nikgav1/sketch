@@ -11,4 +11,5 @@
     height: 961px;
     border: 2px solid black;
     margin: 20px 0 0 20px;
+    transition: 0.5s;
 }
