@@ -31,4 +31,10 @@
             gridPlaceHolder.appendChild(cell);
         }
     }
+    removeGrid(){
+        const gridPlaceHolder = document.getElementById(this.container)
+        while (gridPlaceHolder.firstChild) {
+            gridPlaceHolder.removeChild(gridPlaceHolder.lastChild);
+          }
+    }
 }
