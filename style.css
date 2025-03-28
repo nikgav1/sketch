@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 961px;
+    height: 961px;
+    border: 2px solid black;
+    margin: 20px 0 0 20px;
+}
