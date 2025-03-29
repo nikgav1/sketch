@@ -26,15 +26,21 @@
 
             // Add hover effect to turn the cell black
             cell.addEventListener("mouseover", () =>{
-                cell.style.backgroundColor = "black"
+                const newRgb = this.#randomRGB()
+                cell.style.backgroundColor = `rgb(${newRgb[0]}, ${newRgb[1]}, ${newRgb[2]})`
             })
             gridPlaceHolder.appendChild(cell);
         }
     }
     removeGrid(){
+        // Iterate through every cell and delete it
         const gridPlaceHolder = document.getElementById(this.container)
         while (gridPlaceHolder.firstChild) {
             gridPlaceHolder.removeChild(gridPlaceHolder.lastChild);
           }
+    }
+    #randomRGB(){
+        const rgb = [Math.floor(Math.random() * 256), Math.floor(Math.random() * 256), Math.floor(Math.random() * 256)]
+        return rgb
     }
 }

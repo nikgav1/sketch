@@ -21,4 +21,5 @@
 }
 #input-wrapper div input{
     padding: 5px 50px;
+    color: rgb(red, green, blue);
 }

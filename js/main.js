@@ -13,7 +13,7 @@ const numberInput = document.getElementById("number-input")
 
 changeSkecthButton.addEventListener("click", () => {
     const number = numberInput.value;
-    if(number < 3 || number > 100){
+    if(number < 2 || number > 100){
         alert("Enter Valid Number")
     }
     else{
