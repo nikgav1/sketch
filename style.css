@@ -1,25 +1,25 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #container {
-    margin: auto;
+  margin: auto;
 }
 
-#input-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-#input-wrapper div{
-    margin: 15px 0;
+#input-wrapper div {
+  margin: 15px 0;
 }
-#input-wrapper div button{
-    padding: 10px 20px;
+#input-wrapper div button {
+  padding: 10px 20px;
 }
-#input-wrapper div input{
-    padding: 5px 50px;
-    color: rgb(red, green, blue);
+#input-wrapper div input {
+  padding: 5px 50px;
+  color: rgb(red, green, blue);
 }
